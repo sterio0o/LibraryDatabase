@@ -1,10 +1,8 @@
-Структуру базы данных
-Используется MySQL 
-+--------+-------------+------+-----+---------+----------------+
-| Field  | Type        | Null | Key | Default | Extra          |
-+--------+-------------+------+-----+---------+----------------+
-| id     | int         | NO   | PRI | NULL    | auto_increment |
-| title  | varchar(40) | NO   | MUL | NULL    |                |
-| author | varchar(40) | NO   |     | NULL    |                |
-| page   | int         | NO   |     | NULL    |                |
-+--------+-------------+------+-----+---------+----------------+
+Структуру базы данных с использованием MySQL
+
+| Field  | Type         | Null | Key | Default | Extra          |
+|--------|--------------|------|-----|---------|----------------|
+| id     | int          | NO   | PRI | NULL    | auto_increment |
+| title  | varchar(40)  | NO   | MUL | NULL    |                |
+| author | varchar(40)  | NO   |     | NULL    |                |
+| page   | int          | NO   |     | NULL    |                |
